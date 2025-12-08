@@ -5,6 +5,7 @@ import Controllers.*;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Objects;
 
 
 public class Inicio  extends JFrame {
@@ -13,6 +14,12 @@ public class Inicio  extends JFrame {
     public JPanel panel1;
     private JButton iniciarSesionButton;
     private JButton registrarseButton;
+
+
+
+
+
+
 
 
 
@@ -47,9 +54,16 @@ public class Inicio  extends JFrame {
                 String contraseña = new String(contraseñaChars);
                 Login login = new Login();
 
-                if(login.iniciarSesion(correo,contraseña) == true){
+
+
+                if(login.iniciarSesion(correo,contraseña) == true && Objects.equals(login.consultarTipoUsu(correo, contraseña), "CLIENTE")){
                     PaginaPrincipal paginaPrincipal = new PaginaPrincipal();
                     paginaPrincipal.setVisible(true);
+                    paginaPrincipal.recibeEmail(correo);
+                } else if (login.iniciarSesion(correo,contraseña) == true && Objects.equals(login.consultarTipoUsu(correo, contraseña), "ADMINISTRADOR")) {
+                    PaginaPrincipalAdmin paginaPrincipalAdmin = new PaginaPrincipalAdmin();
+                    paginaPrincipalAdmin.setVisible(true);
+                    paginaPrincipalAdmin.recibeEmailAdmin(correo);
                 }
 
 

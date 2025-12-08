@@ -40,7 +40,7 @@ public class RegistroVista extends JFrame {
                 String contraseña = txtContraseña.getText();
 
                 UsuarioCliente usuCliente = new UsuarioCliente();
-                usuCliente.Resgistro(nombre,apellido,contraseña,correoElectronico,cedula,telefono,edad,direccion);
+                usuCliente.Registro(nombre,apellido,contraseña,correoElectronico,cedula,telefono,edad,direccion);
                 setVisible(false);
 
 
