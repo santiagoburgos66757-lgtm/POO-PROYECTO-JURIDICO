@@ -1,7 +1,5 @@
 package Vista;
 
-import Controllers.Consulta;
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -11,7 +9,7 @@ public class PaginaPrincipal extends JFrame {
     private JButton btnConsulta;
     private JButton btnHistorico;
     private JButton btnPerfil;
-    private JButton PQRSButton;
+    private JButton btnPagos;
     private JLabel lblEmail;
     String correo;
     public void recibeEmail(String email){
@@ -42,6 +40,16 @@ public class PaginaPrincipal extends JFrame {
                 MostrarConsultaVista mostrarVista = new MostrarConsultaVista();
                 mostrarVista.setVisible(true);
                 mostrarVista.recibeEmail(correo);
+            }
+        });
+        btnPagos.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                PagosVista pagosVista = new PagosVista();
+                pagosVista.setVisible(true);
+                pagosVista.recibeEmailPagos(correo);
+
+
             }
         });
     }

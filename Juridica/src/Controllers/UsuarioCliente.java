@@ -72,6 +72,10 @@ public class UsuarioCliente extends Usuario implements RegistroInterface {
         }
     }
 
+    public void setPlan(int plan) {
+        this.plan = plan;
+    }
+
     public String getTipoUsuario() {
        return tipoUsu;
     }
