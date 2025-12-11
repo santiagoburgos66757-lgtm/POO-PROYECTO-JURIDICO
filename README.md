@@ -59,3 +59,34 @@ java TestPOO
 - `Paciente.java` - Clase Paciente
 - `Sensor.java` - Clase Sensor
 - `TestPOO.java` - Programa de prueba para verificar todos los formatos de salida
+
+
+
+<img width="1382" height="761" alt="Captura de pantalla 2025-12-10 201001" src="https://github.com/user-attachments/assets/f16353fb-5f89-4c37-b1af-cd0784c5e06f" />
+
+
+<img width="513" height="365" alt="Captura de pantalla 2025-12-10 201035" src="https://github.com/user-attachments/assets/48ab547a-ff9b-470c-881a-a5b4b4547d2a" />
+
+
+<img width="693" height="406" alt="Captura de pantalla 2025-12-10 201050" src="https://github.com/user-attachments/assets/3b5f4bb7-a6b1-4a4c-a467-98a249f1e157" />
+
+
+<img width="597" height="395" alt="Captura de pantalla 2025-12-10 201112" src="https://github.com/user-attachments/assets/e20905ae-f589-48f1-a978-a6a51fa2f546" />
+
+
+<img width="563" height="395" alt="Captura de pantalla 2025-12-10 201123" src="https://github.com/user-attachments/assets/e337b223-1647-4aa0-9fd9-0c3730002d49" />
+
+
+<img width="526" height="362" alt="Captura de pantalla 2025-12-10 201132" src="https://github.com/user-attachments/assets/11197a2b-0b72-433b-8092-b1f2c2672a25" />
+
+
+
+
+
+
+
+
+
+
+
+
