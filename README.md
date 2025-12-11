@@ -66,6 +66,14 @@ java TestPOO
 
 
 
+
+
+
+
+
+
+
+
 PRUEBAS DE DISEÑO DE FORMULARIOS:
 
 
@@ -85,6 +93,17 @@ PRUEBAS DE DISEÑO DE FORMULARIOS:
 
 
 <img width="526" height="362" alt="Captura de pantalla 2025-12-10 201132" src="https://github.com/user-attachments/assets/11197a2b-0b72-433b-8092-b1f2c2672a25" />
+
+
+
+
+
+
+
+
+
+
+
 
 
 
